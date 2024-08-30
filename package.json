@@ -9,6 +9,6 @@
     "typescript": "^5.0.0"
   },
   "scripts": {
-    "start": "bun build --outdir=./dist ./frontend/index.ts ./backend/sw.ts && cd dist && bunx vite ."
+    "start": "bun build --outdir=./app ./frontend/index.ts ./sw.ts && cd app && bunx vite ."
   }
 }
